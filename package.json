@@ -1,0 +1,24 @@
+{
+  "name": "exerciciocypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbrianlima/exerciciocypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbrianlima/exerciciocypress/issues"
+  },
+  "homepage": "https://github.com/dbrianlima/exerciciocypress#readme",
+  "devDependencies": {
+    "cypress": "^9.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}
