@@ -21,7 +21,7 @@ describe ('menudown', () => {
         cy.get(':nth-child(5) > .select-wrapper > input.select-dropdown').click();
         cy.get('li').contains('Masculino').click();
         cy.get(':nth-child(5) > #dropdown').click();
-        cy.get('li').contains('Safari').click();
+        cy.get('li').contains('Safari').select();
     });
 
 
